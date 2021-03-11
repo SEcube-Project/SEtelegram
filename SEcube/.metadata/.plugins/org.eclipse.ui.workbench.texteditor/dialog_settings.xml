@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="send"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="L1Login"/>
+			<item value="send"/>
+			<item value="GUI_request2"/>
+			<item value="std::cout"/>
+			<item value="CEREAL_REGISTER_TYPE"/>
+			<item value="TLGRM"/>
+			<item value="COUNT(*)"/>
+			<item value="telegram"/>
+		</list>
+		<list key="replacehistory">
+			<item value="logfile"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1049"/>
+		<item key="DIALOG_Y_ORIGIN" value="403"/>
+	</section>
+</section>

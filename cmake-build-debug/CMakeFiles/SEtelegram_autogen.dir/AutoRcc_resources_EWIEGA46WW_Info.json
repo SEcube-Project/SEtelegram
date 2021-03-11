@@ -1,0 +1,24 @@
+{
+	"BUILD_DIR" : "/home/matteo/Scrivania/SEtelegram/cmake-build-debug/SEtelegram_autogen",
+	"CMAKE_BINARY_DIR" : "/home/matteo/Scrivania/SEtelegram/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/matteo/Scrivania/SEtelegram/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/matteo/Scrivania/SEtelegram",
+	"CMAKE_SOURCE_DIR" : "/home/matteo/Scrivania/SEtelegram",
+	"INCLUDE_DIR" : "/home/matteo/Scrivania/SEtelegram/cmake-build-debug/SEtelegram_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/matteo/Scrivania/SEtelegram/css/stylesheet.qss",
+		"/home/matteo/Scrivania/SEtelegram/resources/document.png",
+		"/home/matteo/Scrivania/SEtelegram/resources/light-clip.png"
+	],
+	"LOCK_FILE" : "/home/matteo/Scrivania/SEtelegram/cmake-build-debug/CMakeFiles/SEtelegram_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/home/matteo/Qt/5.12.3/gcc_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/matteo/Scrivania/SEtelegram/cmake-build-debug/CMakeFiles/SEtelegram_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/matteo/Scrivania/SEtelegram/resources.qrc",
+	"VERBOSITY" : 0
+}

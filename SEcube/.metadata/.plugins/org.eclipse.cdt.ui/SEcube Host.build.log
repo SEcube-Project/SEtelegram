@@ -1,0 +1,145 @@
+10:12:40 **** Incremental Build of configuration Release for project SEcube Host ****
+Info: Internal Builder is used for build
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o sources\L1\L1_security.o ..\sources\L1\L1_security.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o examples\digest_algorithms.o ..\examples\digest_algorithms.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o sources\L1\Crypto Libraries\aes256.o ..\sources\L1\Crypto Libraries\aes256.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o examples\device_init.o ..\examples\device_init.cpp 
+gcc -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -o sources\L1\Crypto Libraries\sha256.o ..\sources\L1\Crypto Libraries\sha256.c 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o sources\L0\L0_provision.o ..\sources\L0\L0_provision.cpp 
+gcc -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -o selink\base64\cencode.o ..\selink\base64\cencode.c 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o sefile\SEcureDB.o ..\sefile\SEcureDB.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o sources\L0\L0.o ..\sources\L0\L0.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o sources\L0\L0_communication.o ..\sources\L0\L0_communication.cpp 
+gcc -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -o sources\L1\Crypto Libraries\pbkdf2.o ..\sources\L1\Crypto Libraries\pbkdf2.c 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o examples\sefile_example.o ..\examples\sefile_example.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o examples\manual_key_management.o ..\examples\manual_key_management.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o selink\base64\base64.o ..\selink\base64\base64.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o examples\hello_world.o ..\examples\hello_world.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o examples\encryption_algorithms.o ..\examples\encryption_algorithms.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o sources\L0\L0 Base\L0_base.o ..\sources\L0\L0 Base\L0_base.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o selink\SElink.o ..\selink\SElink.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o sekey\SEkey.o ..\sekey\SEkey.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o sources\L1\L1 Base\L1_base.o ..\sources\L1\L1 Base\L1_base.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o sources\L1\L1_sekey.o ..\sources\L1\L1_sekey.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o examples\selink_example.o ..\examples\selink_example.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o sources\L1\L1_login_logout.o ..\sources\L1\L1_login_logout.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o sources\L0\L0_commodities.o ..\sources\L0\L0_commodities.cpp 
+gcc -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -o selink\base64\cdecode.o ..\selink\base64\cdecode.c 
+gcc -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -o sqlite\sqlite3.o ..\sqlite\sqlite3.c 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o sefile\SEfile.o ..\sefile\SEfile.cpp 
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o examples\sekey_example.o ..\examples\sekey_example.cpp 
+..\sqlite\sqlite3.c: In function 'SecureDirectWrite':
+..\sqlite\sqlite3.c:37731:35: warning: passing argument 2 of 'c_sql_secure_write' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   if(c_sql_secure_write(&(p->fd), zBuf, iAmt)){
+                                   ^~~~
+In file included from ..\sqlite\sqlite3.c:37641:
+..\sqlite\../sefile/SEfile_C_interface.h:217:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'const void *'
+   uint16_t c_sql_secure_write(SEFILE_FHANDLE *hFile, uint8_t * dataIn, uint32_t dataIn_len);
+                                                      ~~~~~~~~~~^~~~~~
+..\sqlite\sqlite3.c: In function 'SecureClose':
+..\sqlite\sqlite3.c:37760:17: warning: passing argument 1 of 'sqlite3_free' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   sqlite3_free(p->zFilename);
+                ~^~~~~~~~~~~
+..\sqlite\sqlite3.c:24675:36: note: expected 'void *' but argument is of type 'const char *'
+ SQLITE_API void sqlite3_free(void *p){
+                              ~~~~~~^
+..\sqlite\sqlite3.c: In function 'SecureRead':
+..\sqlite\sqlite3.c:37791:46: warning: pointer targets in passing argument 4 of 'c_sql_secure_read' differ in signedness [-Wpointer-sign]
+   if(c_sql_secure_read(&(p->fd), zBuf, iAmt, &nRead) || nRead!=iAmt){
+                                              ^~~~~~
+In file included from ..\sqlite\sqlite3.c:37641:
+..\sqlite\../sefile/SEfile_C_interface.h:218:12: note: expected 'uint32_t *' {aka 'unsigned int *'} but argument is of type 'int *'
+   uint16_t c_sql_secure_read(SEFILE_FHANDLE *hFile,  uint8_t * dataOut, uint32_t dataOut_len, uint32_t * bytesRead);
+            ^~~~~~~~~~~~~~~~~
+..\sqlite\sqlite3.c: In function 'SecureFileSize':
+..\sqlite\sqlite3.c:37904:34: warning: passing argument 1 of 'c_sql_secure_getfilesize' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   rc = c_sql_secure_getfilesize(p->zFilename, &size);
+                                 ~^~~~~~~~~~~
+In file included from ..\sqlite\sqlite3.c:37641:
+..\sqlite\../sefile/SEfile_C_interface.h:221:43: note: expected 'char *' but argument is of type 'const char *'
+   uint16_t c_sql_secure_getfilesize(char *path, uint32_t * position);
+                                     ~~~~~~^~~~
+..\sqlite\sqlite3.c:37904:47: warning: pointer targets in passing argument 2 of 'c_sql_secure_getfilesize' differ in signedness [-Wpointer-sign]
+   rc = c_sql_secure_getfilesize(p->zFilename, &size);
+                                               ^~~~~
+In file included from ..\sqlite\sqlite3.c:37641:
+..\sqlite\../sefile/SEfile_C_interface.h:221:12: note: expected 'uint32_t *' {aka 'unsigned int *'} but argument is of type 'int *'
+   uint16_t c_sql_secure_getfilesize(char *path, uint32_t * position);
+            ^~~~~~~~~~~~~~~~~~~~~~~~
+..\sqlite\sqlite3.c: In function 'SecureOpen':
+..\sqlite\sqlite3.c:38009:24: warning: passing argument 1 of 'c_sql_secure_open' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   if(c_sql_secure_open(zName, &(p->fd), oflags, access)){
+                        ^~~~~
+In file included from ..\sqlite\sqlite3.c:37641:
+..\sqlite\../sefile/SEfile_C_interface.h:216:36: note: expected 'char *' but argument is of type 'const char *'
+   uint16_t c_sql_secure_open(char *path, SEFILE_FHANDLE *hFile, int32_t mode, int32_t creation);
+                              ~~~~~~^~~~
+..\sqlite\sqlite3.c: In function 'SecureDelete':
+..\sqlite\sqlite3.c:38034:24: warning: passing argument 1 of 'crypto_filename' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   rc = crypto_filename(zPath, dPath, &dLength);
+                        ^~~~~
+In file included from ..\sqlite\sqlite3.c:37641:
+..\sqlite\../sefile/SEfile_C_interface.h:204:32: note: expected 'char *' but argument is of type 'const char *'
+ uint16_t crypto_filename(char *path, char *enc_name, uint16_t *encoded_length);
+                          ~~~~~~^~~~
+..\sqlite\sqlite3.c:38034:38: warning: passing argument 3 of 'crypto_filename' from incompatible pointer type [-Wincompatible-pointer-types]
+   rc = crypto_filename(zPath, dPath, &dLength);
+                                      ^~~~~~~~
+In file included from ..\sqlite\sqlite3.c:37641:
+..\sqlite\../sefile/SEfile_C_interface.h:204:64: note: expected 'uint16_t *' {aka 'short unsigned int *'} but argument is of type 'int *'
+ uint16_t crypto_filename(char *path, char *enc_name, uint16_t *encoded_length);
+                                                      ~~~~~~~~~~^~~~~~~~~~~~~~
+..\sqlite\sqlite3.c: In function 'SecureAccess':
+..\sqlite\sqlite3.c:38106:24: warning: passing argument 1 of 'crypto_filename' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   rc = crypto_filename(zPath, dPath, &dLength);
+                        ^~~~~
+In file included from ..\sqlite\sqlite3.c:37641:
+..\sqlite\../sefile/SEfile_C_interface.h:204:32: note: expected 'char *' but argument is of type 'const char *'
+ uint16_t crypto_filename(char *path, char *enc_name, uint16_t *encoded_length);
+                          ~~~~~~^~~~
+..\sqlite\sqlite3.c:38106:38: warning: passing argument 3 of 'crypto_filename' from incompatible pointer type [-Wincompatible-pointer-types]
+   rc = crypto_filename(zPath, dPath, &dLength);
+                                      ^~~~~~~~
+In file included from ..\sqlite\sqlite3.c:37641:
+..\sqlite\../sefile/SEfile_C_interface.h:204:64: note: expected 'uint16_t *' {aka 'short unsigned int *'} but argument is of type 'int *'
+ uint16_t crypto_filename(char *path, char *enc_name, uint16_t *encoded_length);
+                                                      ~~~~~~~~~~^~~~~~~~~~~~~~
+..\sqlite\sqlite3.c:38096:7: warning: unused variable 'eAccess' [-Wunused-variable]
+   int eAccess = F_OK;             /* Second argument to access() */
+       ^~~~~~~
+..\sqlite\sqlite3.c: In function 'SecureFullPathname':
+..\sqlite\sqlite3.c:38149:7: warning: unused variable 'i' [-Wunused-variable]
+   int i = 0;
+       ^
+..\sqlite\sqlite3.c: In function 'SecureRandomness':
+..\sqlite\sqlite3.c:38216:20: warning: pointer targets in passing argument 2 of 'se3c_rand' differ in signedness [-Wpointer-sign]
+   se3c_rand(nByte, zByte);
+                    ^~~~~
+..\sqlite\sqlite3.c:37657:6: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ void se3c_rand(size_t len, uint8_t* buf)
+      ^~~~~~~~~
+..\sefile\SEfile.cpp: In member function 'uint16_t SEfile::secure_write(uint8_t*, uint32_t)':
+..\sefile\SEfile.cpp:535:23: warning: comparison of integer expressions of different signedness: 'uint32_t' {aka 'unsigned int'} and 'int' [-Wsign-compare]
+          length = dataIn_len;
+            ~~~~~~~~~~~^~~~~~~                         
+..\sefile\SEfile.cpp: In member function 'uint16_t SEfile::secure_read(uint8_t*, uint32_t, uint32_t*)':
+..\sefile\SEfile.cpp:650:30: warning: comparison of integer expressions of different signedness: 'uint32_t' {aka 'unsigned int'} and 'int' [-Wsign-compare]
+         if(data_remaining<length){
+                  ~~~~~~~~~~~~^~~~~                           
+g++ -O0 -g -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -o sources\L1\L1.o ..\sources\L1\L1.cpp 
+..\sqlite\sqlite3.c: In function 'sqlite3LoadExtension':
+..\sqlite\sqlite3.c:113069:22: warning: unused variable 'azEndings' [-Wunused-variable]
+   static const char *azEndings[] = {
+                      ^~~~~~~~~
+..\sqlite\sqlite3.c:113065:7: warning: unused variable 'ii' [-Wunused-variable]
+   int ii;
+       ^~
+At top level:
+..\sqlite\sqlite3.c:113069:22: warning: 'azEndings' defined but not used [-Wunused-variable]
+   static const char *azEndings[] = {
+                      ^~~~~~~~~
+g++ -o SEcube Host.exe examples\device_init.o examples\digest_algorithms.o examples\encryption_algorithms.o examples\hello_world.o examples\manual_key_management.o examples\sefile_example.o examples\sekey_example.o examples\selink_example.o sefile\SEcureDB.o sefile\SEfile.o sekey\SEkey.o selink\SElink.o selink\base64\base64.o selink\base64\cdecode.o selink\base64\cencode.o sources\L0\L0 Base\L0_base.o sources\L0\L0.o sources\L0\L0_commodities.o sources\L0\L0_communication.o sources\L0\L0_provision.o sources\L1\Crypto Libraries\aes256.o sources\L1\Crypto Libraries\pbkdf2.o sources\L1\Crypto Libraries\sha256.o sources\L1\L1 Base\L1_base.o sources\L1\L1.o sources\L1\L1_login_logout.o sources\L1\L1_security.o sources\L1\L1_sekey.o sqlite\sqlite3.o 
+Info: Parallel threads used: 4
+
+10:14:09 Build Finished. 0 errors, 18 warnings. (took 1m:28s.289ms)
+

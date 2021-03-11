@@ -1,0 +1,4 @@
+/home/matteo/Scrivania/SEtelegram/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/matteo/Scrivania/SEtelegram/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/matteo/Scrivania/SEtelegram/cmake-build-debug/CMakeFiles/SEtelegram.dir
+/home/matteo/Scrivania/SEtelegram/cmake-build-debug/CMakeFiles/SEtelegram_autogen.dir

@@ -1,0 +1,264 @@
+17:52:23 **** Incremental Build of configuration Release for project SEcubeServer ****
+make -j4 all 
+Building file: ../sources/L1/L1 Base/L1_base.cpp
+Building file: ../sqlite/sqlite3.c
+Building file: ../sources/L1/Crypto Libraries/pbkdf2.c
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"sources/L1/L1 Base/L1_base.d" -MT"sources/L1/L1\ Base/L1_base.d" -o "sources/L1/L1 Base/L1_base.o" "../sources/L1/L1 Base/L1_base.cpp"
+Building file: ../sources/L1/Crypto Libraries/aes256.cpp
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -MMD -MP -MF"sources/L1/Crypto Libraries/pbkdf2.d" -MT"sources/L1/Crypto\ Libraries/pbkdf2.d" -o "sources/L1/Crypto Libraries/pbkdf2.o" "../sources/L1/Crypto Libraries/pbkdf2.c"
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"sources/L1/Crypto Libraries/aes256.d" -MT"sources/L1/Crypto\ Libraries/aes256.d" -o "sources/L1/Crypto Libraries/aes256.o" "../sources/L1/Crypto Libraries/aes256.cpp"
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -MMD -MP -MF"sqlite/sqlite3.d" -MT"sqlite/sqlite3.o" -o "sqlite/sqlite3.o" "../sqlite/sqlite3.c"
+Finished building: ../sources/L1/Crypto Libraries/pbkdf2.c
+ 
+Building file: ../sources/L1/Crypto Libraries/sha256.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -MMD -MP -MF"sources/L1/Crypto Libraries/sha256.d" -MT"sources/L1/Crypto\ Libraries/sha256.d" -o "sources/L1/Crypto Libraries/sha256.o" "../sources/L1/Crypto Libraries/sha256.c"
+../sqlite/sqlite3.c: In function ‘SecureDirectWrite’:
+../sqlite/sqlite3.c:37731:35: warning: passing argument 2 of ‘c_sql_secure_write’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   if(c_sql_secure_write(&(p->fd), zBuf, iAmt)){
+                                   ^~~~
+In file included from ../sqlite/sqlite3.c:37641:0:
+../sqlite/../sefile/SEfile_C_interface.h:217:12: note: expected ‘uint8_t * {aka unsigned char *}’ but argument is of type ‘const void *’
+   uint16_t c_sql_secure_write(SEFILE_FHANDLE *hFile, uint8_t * dataIn, uint32_t dataIn_len);
+            ^~~~~~~~~~~~~~~~~~
+../sqlite/sqlite3.c: In function ‘SecureClose’:
+../sqlite/sqlite3.c:37760:16: warning: passing argument 1 of ‘sqlite3_free’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   sqlite3_free(p->zFilename);
+                ^
+../sqlite/sqlite3.c:24675:17: note: expected ‘void *’ but argument is of type ‘const char *’
+ SQLITE_API void sqlite3_free(void *p){
+                 ^~~~~~~~~~~~
+../sqlite/sqlite3.c: In function ‘SecureRead’:
+../sqlite/sqlite3.c:37791:46: warning: pointer targets in passing argument 4 of ‘c_sql_secure_read’ differ in signedness [-Wpointer-sign]
+   if(c_sql_secure_read(&(p->fd), zBuf, iAmt, &nRead) || nRead!=iAmt){
+                                              ^
+In file included from ../sqlite/sqlite3.c:37641:0:
+../sqlite/../sefile/SEfile_C_interface.h:218:12: note: expected ‘uint32_t * {aka unsigned int *}’ but argument is of type ‘int *’
+   uint16_t c_sql_secure_read(SEFILE_FHANDLE *hFile,  uint8_t * dataOut, uint32_t dataOut_len, uint32_t * bytesRead);
+            ^~~~~~~~~~~~~~~~~
+../sqlite/sqlite3.c: In function ‘SecureFileSize’:
+../sqlite/sqlite3.c:37904:33: warning: passing argument 1 of ‘c_sql_secure_getfilesize’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   rc = c_sql_secure_getfilesize(p->zFilename, &size);
+                                 ^
+In file included from ../sqlite/sqlite3.c:37641:0:
+../sqlite/../sefile/SEfile_C_interface.h:221:12: note: expected ‘char *’ but argument is of type ‘const char *’
+   uint16_t c_sql_secure_getfilesize(char *path, uint32_t * position);
+            ^~~~~~~~~~~~~~~~~~~~~~~~
+../sqlite/sqlite3.c:37904:47: warning: pointer targets in passing argument 2 of ‘c_sql_secure_getfilesize’ differ in signedness [-Wpointer-sign]
+   rc = c_sql_secure_getfilesize(p->zFilename, &size);
+                                               ^
+In file included from ../sqlite/sqlite3.c:37641:0:
+../sqlite/../sefile/SEfile_C_interface.h:221:12: note: expected ‘uint32_t * {aka unsigned int *}’ but argument is of type ‘int *’
+   uint16_t c_sql_secure_getfilesize(char *path, uint32_t * position);
+            ^~~~~~~~~~~~~~~~~~~~~~~~
+../sqlite/sqlite3.c: In function ‘SecureOpen’:
+../sqlite/sqlite3.c:38009:24: warning: passing argument 1 of ‘c_sql_secure_open’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   if(c_sql_secure_open(zName, &(p->fd), oflags, access)){
+                        ^~~~~
+In file included from ../sqlite/sqlite3.c:37641:0:
+../sqlite/../sefile/SEfile_C_interface.h:216:12: note: expected ‘char *’ but argument is of type ‘const char *’
+   uint16_t c_sql_secure_open(char *path, SEFILE_FHANDLE *hFile, int32_t mode, int32_t creation);
+            ^~~~~~~~~~~~~~~~~
+../sqlite/sqlite3.c: In function ‘SecureDelete’:
+../sqlite/sqlite3.c:38034:24: warning: passing argument 1 of ‘crypto_filename’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   rc = crypto_filename(zPath, dPath, &dLength);
+                        ^~~~~
+In file included from ../sqlite/sqlite3.c:37641:0:
+../sqlite/../sefile/SEfile_C_interface.h:204:10: note: expected ‘char *’ but argument is of type ‘const char *’
+ uint16_t crypto_filename(char *path, char *enc_name, uint16_t *encoded_length);
+          ^~~~~~~~~~~~~~~
+../sqlite/sqlite3.c:38034:38: warning: passing argument 3 of ‘crypto_filename’ from incompatible pointer type [-Wincompatible-pointer-types]
+   rc = crypto_filename(zPath, dPath, &dLength);
+                                      ^
+In file included from ../sqlite/sqlite3.c:37641:0:
+../sqlite/../sefile/SEfile_C_interface.h:204:10: note: expected ‘uint16_t * {aka short unsigned int *}’ but argument is of type ‘int *’
+ uint16_t crypto_filename(char *path, char *enc_name, uint16_t *encoded_length);
+          ^~~~~~~~~~~~~~~
+../sqlite/sqlite3.c: In function ‘SecureAccess’:
+../sqlite/sqlite3.c:38106:24: warning: passing argument 1 of ‘crypto_filename’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   rc = crypto_filename(zPath, dPath, &dLength);
+                        ^~~~~
+In file included from ../sqlite/sqlite3.c:37641:0:
+../sqlite/../sefile/SEfile_C_interface.h:204:10: note: expected ‘char *’ but argument is of type ‘const char *’
+ uint16_t crypto_filename(char *path, char *enc_name, uint16_t *encoded_length);
+          ^~~~~~~~~~~~~~~
+../sqlite/sqlite3.c:38106:38: warning: passing argument 3 of ‘crypto_filename’ from incompatible pointer type [-Wincompatible-pointer-types]
+   rc = crypto_filename(zPath, dPath, &dLength);
+                                      ^
+In file included from ../sqlite/sqlite3.c:37641:0:
+../sqlite/../sefile/SEfile_C_interface.h:204:10: note: expected ‘uint16_t * {aka short unsigned int *}’ but argument is of type ‘int *’
+ uint16_t crypto_filename(char *path, char *enc_name, uint16_t *encoded_length);
+          ^~~~~~~~~~~~~~~
+../sqlite/sqlite3.c: In function ‘SecureFullPathname’:
+../sqlite/sqlite3.c:38149:7: warning: unused variable ‘i’ [-Wunused-variable]
+   int i = 0;
+       ^
+../sqlite/sqlite3.c: In function ‘SecureRandomness’:
+../sqlite/sqlite3.c:38216:20: warning: pointer targets in passing argument 2 of ‘se3c_rand’ differ in signedness [-Wpointer-sign]
+   se3c_rand(nByte, zByte);
+                    ^~~~~
+../sqlite/sqlite3.c:37657:6: note: expected ‘uint8_t * {aka unsigned char *}’ but argument is of type ‘char *’
+ void se3c_rand(size_t len, uint8_t* buf)
+      ^~~~~~~~~
+Finished building: ../sources/L1/Crypto Libraries/sha256.c
+ 
+Building file: ../sources/L1/L1.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"sources/L1/L1.d" -MT"sources/L1/L1.o" -o "sources/L1/L1.o" "../sources/L1/L1.cpp"
+Finished building: ../sources/L1/Crypto Libraries/aes256.cpp
+ 
+Building file: ../sources/L1/L1_login_logout.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"sources/L1/L1_login_logout.d" -MT"sources/L1/L1_login_logout.o" -o "sources/L1/L1_login_logout.o" "../sources/L1/L1_login_logout.cpp"
+Finished building: ../sources/L1/L1 Base/L1_base.cpp
+ 
+Building file: ../sources/L1/L1_security.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"sources/L1/L1_security.d" -MT"sources/L1/L1_security.o" -o "sources/L1/L1_security.o" "../sources/L1/L1_security.cpp"
+Finished building: ../sources/L1/L1_login_logout.cpp
+ 
+Building file: ../sources/L1/L1_sekey.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"sources/L1/L1_sekey.d" -MT"sources/L1/L1_sekey.o" -o "sources/L1/L1_sekey.o" "../sources/L1/L1_sekey.cpp"
+Finished building: ../sources/L1/L1.cpp
+ 
+Building file: ../sources/L0/L0 Base/L0_base.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"sources/L0/L0 Base/L0_base.d" -MT"sources/L0/L0\ Base/L0_base.d" -o "sources/L0/L0 Base/L0_base.o" "../sources/L0/L0 Base/L0_base.cpp"
+../sources/L0/L0 Base/L0_base.cpp: In static member function ‘static bool L0Support::Se3Write(uint8_t*, se3File, size_t, size_t, uint32_t)’:
+../sources/L0/L0 Base/L0_base.cpp:339:58: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (nBlocks * L0Communication::Parameter::COMM_BLOCK != pwrite( hfile.fd,
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+                     hfile.buf,
+                     ~~~~~~~~~~~                           
+                  nBlocks * L0Communication::Parameter::COMM_BLOCK,
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                  block * L0Communication::Parameter::COMM_BLOCK)) {
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../sources/L0/L0 Base/L0_base.cpp: In static member function ‘static bool L0Support::Se3Read(uint8_t*, se3File, size_t, size_t, uint32_t)’:
+../sources/L0/L0 Base/L0_base.cpp:383:58: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (nBlocks * L0Communication::Parameter::COMM_BLOCK != pread( hFile.fd,
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+                     hFile.buf,
+                     ~~~~~~~~~~~                           
+                  nBlocks * L0Communication::Parameter::COMM_BLOCK,
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                  block * L0Communication::Parameter::COMM_BLOCK))
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../sources/L0/L0 Base/L0_base.cpp: In static member function ‘static void L0Support::Se3Rand(size_t, uint8_t*)’:
+../sources/L0/L0 Base/L0_base.cpp:747:6: warning: ignoring return value of ‘ssize_t read(int, void*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+  read(frnd, buf, len);
+  ~~~~^~~~~~~~~~~~~~~~
+Finished building: ../sources/L1/L1_security.cpp
+ 
+Building file: ../sources/L0/L0.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"sources/L0/L0.d" -MT"sources/L0/L0.o" -o "sources/L0/L0.o" "../sources/L0/L0.cpp"
+Finished building: ../sources/L0/L0 Base/L0_base.cpp
+ 
+Building file: ../sources/L0/L0_commodities.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"sources/L0/L0_commodities.d" -MT"sources/L0/L0_commodities.o" -o "sources/L0/L0_commodities.o" "../sources/L0/L0_commodities.cpp"
+Finished building: ../sources/L1/L1_sekey.cpp
+ 
+Building file: ../sources/L0/L0_communication.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"sources/L0/L0_communication.d" -MT"sources/L0/L0_communication.o" -o "sources/L0/L0_communication.o" "../sources/L0/L0_communication.cpp"
+Finished building: ../sources/L0/L0.cpp
+ 
+Building file: ../sources/L0/L0_provision.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"sources/L0/L0_provision.d" -MT"sources/L0/L0_provision.o" -o "sources/L0/L0_provision.o" "../sources/L0/L0_provision.cpp"
+Finished building: ../sources/L0/L0_commodities.cpp
+ 
+Building file: ../selink/base64/base64.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"selink/base64/base64.d" -MT"selink/base64/base64.o" -o "selink/base64/base64.o" "../selink/base64/base64.cpp"
+Finished building: ../selink/base64/base64.cpp
+../sqlite/sqlite3.c: In function ‘sqlite3LoadExtension’:
+../sqlite/sqlite3.c:113069:22: warning: unused variable ‘azEndings’ [-Wunused-variable]
+   static const char *azEndings[] = {
+                      ^~~~~~~~~
+../sqlite/sqlite3.c:113065:7: warning: unused variable ‘ii’ [-Wunused-variable]
+   int ii;
+       ^~
+ 
+Building file: ../selink/base64/cdecode.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -MMD -MP -MF"selink/base64/cdecode.d" -MT"selink/base64/cdecode.o" -o "selink/base64/cdecode.o" "../selink/base64/cdecode.c"
+Finished building: ../selink/base64/cdecode.c
+ 
+Building file: ../selink/base64/cencode.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -MMD -MP -MF"selink/base64/cencode.d" -MT"selink/base64/cencode.o" -o "selink/base64/cencode.o" "../selink/base64/cencode.c"
+Finished building: ../selink/base64/cencode.c
+ 
+Building file: ../selink/SElink.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"selink/SElink.d" -MT"selink/SElink.o" -o "selink/SElink.o" "../selink/SElink.cpp"
+Finished building: ../sources/L0/L0_communication.cpp
+ 
+Building file: ../sekey/SEkey.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"sekey/SEkey.d" -MT"sekey/SEkey.o" -o "sekey/SEkey.o" "../sekey/SEkey.cpp"
+Finished building: ../sources/L0/L0_provision.cpp
+ 
+Building file: ../sefile/SEcureDB.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"sefile/SEcureDB.d" -MT"sefile/SEcureDB.o" -o "sefile/SEcureDB.o" "../sefile/SEcureDB.cpp"
+Finished building: ../selink/SElink.cpp
+ 
+Building file: ../sefile/SEfile.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -DSQLITE_TEMP_STORE=3 -std=c++17 -MMD -MP -MF"sefile/SEfile.d" -MT"sefile/SEfile.o" -o "sefile/SEfile.o" "../sefile/SEfile.cpp"
+../sefile/SEfile.cpp: In member function ‘uint16_t SEfile::secure_write(uint8_t*, uint32_t)’:
+../sefile/SEfile.cpp:497:63: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         return SEFILE_WRITE_ERROR;
+                                                               ^                 
+../sefile/SEfile.cpp:535:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+          length = dataIn_len;
+            ~~~~~~~~~~~^~~~~~~~                        
+../sefile/SEfile.cpp: In member function ‘uint16_t SEfile::secure_read(uint8_t*, uint32_t, uint32_t*)’:
+../sefile/SEfile.cpp:619:63: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         return SEFILE_READ_ERROR;
+                                                               ^                 
+../sefile/SEfile.cpp:650:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if(data_remaining<length){
+                  ~~~~~~~~~~~~^~~~~~                          
+../sefile/SEfile.cpp: In member function ‘uint16_t SEfile::secure_seek(int32_t, int32_t*, uint8_t)’:
+../sefile/SEfile.cpp:694:69: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         return SEFILE_SEEK_ERROR;
+                                                                     ^                  
+../sqlite/sqlite3.c: In function ‘se3c_rand’:
+../sqlite/sqlite3.c:37679:5: warning: ignoring return value of ‘read’, declared with attribute warn_unused_result [-Wunused-result]
+     read(frnd, buf, len);
+     ^~~~~~~~~~~~~~~~~~~~
+Finished building: ../sefile/SEcureDB.cpp
+ 
+At top level:
+../sqlite/sqlite3.c:113069:22: warning: ‘azEndings’ defined but not used [-Wunused-variable]
+   static const char *azEndings[] = {
+                      ^~~~~~~~~
+Finished building: ../sefile/SEfile.cpp
+ 
+Finished building: ../sekey/SEkey.cpp
+ 
+Finished building: ../sqlite/sqlite3.c
+ 
+Building target: SEcubeServer.exe
+Invoking: GCC C++ Linker
+g++  -o "SEcubeServer.exe"  ./sqlite/sqlite3.o  ./sources/L1/L1\ Base/L1_base.o  ./sources/L1/Crypto\ Libraries/aes256.o ./sources/L1/Crypto\ Libraries/pbkdf2.o ./sources/L1/Crypto\ Libraries/sha256.o  ./sources/L1/L1.o ./sources/L1/L1_login_logout.o ./sources/L1/L1_security.o ./sources/L1/L1_sekey.o  ./sources/L0/L0\ Base/L0_base.o  ./sources/L0/L0.o ./sources/L0/L0_commodities.o ./sources/L0/L0_communication.o ./sources/L0/L0_provision.o  ./setelegram/SEtelegram.o  ./selink/base64/base64.o ./selink/base64/cdecode.o ./selink/base64/cencode.o  ./selink/SElink.o  ./sekey/SEkey.o  ./sefile/SEcureDB.o ./sefile/SEfile.o  ./SEcubeServer.o   
+Finished building target: SEcubeServer.exe
+ 
+17:53:12 **** Clean-only build of configuration Release for project SEcubeServer ****
+make -j4 clean 
+rm -rf  ./sqlite/sqlite3.o  ./sources/L1/L1\ Base/L1_base.o  ./sources/L1/Crypto\ Libraries/aes256.o ./sources/L1/Crypto\ Libraries/pbkdf2.o ./sources/L1/Crypto\ Libraries/sha256.o  ./sources/L1/L1.o ./sources/L1/L1_login_logout.o ./sources/L1/L1_security.o ./sources/L1/L1_sekey.o  ./sources/L0/L0\ Base/L0_base.o  ./sources/L0/L0.o ./sources/L0/L0_commodities.o ./sources/L0/L0_communication.o ./sources/L0/L0_provision.o  ./setelegram/SEtelegram.o  ./selink/base64/base64.o ./selink/base64/cdecode.o ./selink/base64/cencode.o  ./selink/SElink.o  ./sekey/SEkey.o  ./sefile/SEcureDB.o ./sefile/SEfile.o  ./SEcubeServer.o  ./sources/L1/L1\ Base/L1_base.d  ./sources/L1/Crypto\ Libraries/aes256.d  ./sources/L1/L1.d ./sources/L1/L1_login_logout.d ./sources/L1/L1_security.d ./sources/L1/L1_sekey.d  ./sources/L0/L0\ Base/L0_base.d  ./sources/L0/L0.d ./sources/L0/L0_commodities.d ./sources/L0/L0_communication.d ./sources/L0/L0_provision.d  ./setelegram/SEtelegram.d  ./selink/base64/base64.d  ./selink/SElink.d  ./sekey/SEkey.d  ./sefile/SEcureDB.d ./sefile/SEfile.d  ./SEcubeServer.d  ./sqlite/sqlite3.d  ./sources/L1/Crypto\ Libraries/pbkdf2.d ./sources/L1/Crypto\ Libraries/sha256.d  ./selink/base64/cdecode.d ./selink/base64/cencode.d  SEcubeServer.exe
+ 
+17:53:19 **** Clean-only build of configuration Debug for project SEcubeServer ****
+make -j4 clean 
+rm -rf  ./sqlite/sqlite3.o  ./sources/L1/L1\ Base/L1_base.o  ./sources/L1/Crypto\ Libraries/aes256.o ./sources/L1/Crypto\ Libraries/pbkdf2.o ./sources/L1/Crypto\ Libraries/sha256.o  ./sources/L1/L1.o ./sources/L1/L1_login_logout.o ./sources/L1/L1_security.o ./sources/L1/L1_sekey.o  ./sources/L0/L0\ Base/L0_base.o  ./sources/L0/L0.o ./sources/L0/L0_commodities.o ./sources/L0/L0_communication.o ./sources/L0/L0_provision.o  ./setelegram/SEtelegram.o  ./selink/base64/base64.o ./selink/base64/cdecode.o ./selink/base64/cencode.o  ./selink/SElink.o  ./sekey/SEkey.o  ./sefile/SEcureDB.o ./sefile/SEfile.o  ./SEcubeServer.o  ./sources/L1/L1\ Base/L1_base.d  ./sources/L1/Crypto\ Libraries/aes256.d  ./sources/L1/L1.d ./sources/L1/L1_login_logout.d ./sources/L1/L1_security.d ./sources/L1/L1_sekey.d  ./sources/L0/L0\ Base/L0_base.d  ./sources/L0/L0.d ./sources/L0/L0_commodities.d ./sources/L0/L0_communication.d ./sources/L0/L0_provision.d  ./setelegram/SEtelegram.d  ./selink/base64/base64.d  ./selink/SElink.d  ./sekey/SEkey.d  ./sefile/SEcureDB.d ./sefile/SEfile.d  ./SEcubeServer.d  ./sqlite/sqlite3.d  ./sources/L1/Crypto\ Libraries/pbkdf2.d ./sources/L1/Crypto\ Libraries/sha256.d  ./selink/base64/cdecode.d ./selink/base64/cencode.d  SEcubeServer.exe
+ 

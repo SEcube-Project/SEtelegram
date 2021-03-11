@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SEcube Host/examples/funct_test.c&apos; to &apos;funct_test.cpp&apos;" description="Rename resource &apos;funct_test.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="examples/funct_test.c" name="funct_test.cpp" stamp="1607003175938" updateReferences="true"/>
+</session>

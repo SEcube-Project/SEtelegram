@@ -1,0 +1,8 @@
+content_assist_autoactivation_delay=10
+content_assist_disabled_computers=org.eclipse.cdt.ui.textProposalCategory\u0000
+content_assist_proposals_timeout=200
+eclipse.preferences.version=1
+scalability.numberOfLines=50000
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

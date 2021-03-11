@@ -1,0 +1,240 @@
+{
+	"BUILD_DIR" : "/home/matteo/Scrivania/SEtelegram/cmake-build-debug/SEtelegram_autogen",
+	"CMAKE_BINARY_DIR" : "/home/matteo/Scrivania/SEtelegram/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/matteo/Scrivania/SEtelegram/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/matteo/Scrivania/SEtelegram",
+	"CMAKE_EXECUTABLE" : "/snap/clion/139/bin/cmake/linux/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/matteo/Scrivania/SEtelegram/CMakeLists.txt",
+		"/home/matteo/Scrivania/SEtelegram/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/matteo/Scrivania/SEtelegram/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake",
+		"/home/matteo/Scrivania/SEtelegram/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeGenericSystem.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/Platform/UnixPaths.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeFindCodeBlocks.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/ProcessorCount.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCInformation.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/Compiler/GNU-C.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/Compiler/GNU.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/Internal/CMakeCheckCompilerFlag.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux-GNU-C.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux-GNU.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXInformation.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/Compiler/GNU-CXX.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/Compiler/GNU.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux-GNU.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeParseArguments.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/home/matteo/Qt/5.12.3/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfig.cmake",
+		"/home/matteo/Scaricati/td/tdlib/lib/cmake/Td/TdConfigVersion.cmake",
+		"/home/matteo/Scaricati/td/tdlib/lib/cmake/Td/TdConfig.cmake",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/matteo/Scaricati/td/tdlib/lib/cmake/Td/TdTargets.cmake",
+		"/home/matteo/Scaricati/td/tdlib/lib/cmake/Td/TdTargets-release.cmake",
+		"/home/matteo/Scrivania/SEtelegram/resources.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/matteo/Scrivania/SEtelegram",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/matteo/Scrivania/SEtelegram/AccessWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_AccessWindow.cpp"
+		],
+		[
+			"/home/matteo/Scrivania/SEtelegram/ChatWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_ChatWindow.cpp"
+		],
+		[
+			"/home/matteo/Scrivania/SEtelegram/Dialogs/AttachmentDialog.h",
+			"MU",
+			"UADLAD4D23/moc_AttachmentDialog.cpp"
+		],
+		[
+			"/home/matteo/Scrivania/SEtelegram/Dialogs/ErrorDialog.h",
+			"MU",
+			"UADLAD4D23/moc_ErrorDialog.cpp"
+		],
+		[
+			"/home/matteo/Scrivania/SEtelegram/Dialogs/TelegramAccessDialog.h",
+			"MU",
+			"UADLAD4D23/moc_TelegramAccessDialog.cpp"
+		],
+		[
+			"/home/matteo/Scrivania/SEtelegram/Frames/ChatButtonFrame.h",
+			"MU",
+			"26EGFWE5OF/moc_ChatButtonFrame.cpp"
+		],
+		[
+			"/home/matteo/Scrivania/SEtelegram/Frames/DocumentMessageFrame.h",
+			"MU",
+			"26EGFWE5OF/moc_DocumentMessageFrame.cpp"
+		],
+		[
+			"/home/matteo/Scrivania/SEtelegram/Frames/ImageMessageFrame.h",
+			"MU",
+			"26EGFWE5OF/moc_ImageMessageFrame.cpp"
+		],
+		[
+			"/home/matteo/Scrivania/SEtelegram/Frames/TextMessageFrame.h",
+			"MU",
+			"26EGFWE5OF/moc_TextMessageFrame.cpp"
+		],
+		[
+			"/home/matteo/Scrivania/SEtelegram/Td.h",
+			"MU",
+			"EWIEGA46WW/moc_Td.cpp"
+		],
+		[
+			"/home/matteo/Scrivania/SEtelegram/global.h",
+			"MU",
+			"EWIEGA46WW/moc_global.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/matteo/Scrivania/SEtelegram/cmake-build-debug/SEtelegram_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/matteo/Scrivania/SEtelegram/cmake-build-debug/SEtelegram_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CHARTS_LIB", "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/matteo/Scaricati/td/tdlib/include",
+		"/home/matteo/Qt/5.12.3/gcc_64/include",
+		"/home/matteo/Qt/5.12.3/gcc_64/include/QtCore",
+		"/home/matteo/Qt/5.12.3/gcc_64/mkspecs/linux-g++",
+		"/home/matteo/Qt/5.12.3/gcc_64/include/QtGui",
+		"/home/matteo/Qt/5.12.3/gcc_64/include/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCharts",
+		"/usr/include",
+		"/usr/include/c++/7",
+		"/usr/include/x86_64-linux-gnu/c++/7",
+		"/usr/include/c++/7/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/snap/clion/139/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/matteo/Scrivania/SEtelegram/cmake-build-debug/SEtelegram_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/matteo/Scrivania/SEtelegram/cmake-build-debug/CMakeFiles/SEtelegram_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/matteo/Qt/5.12.3/gcc_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/matteo/Qt/5.12.3/gcc_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "/home/matteo/Scrivania/SEtelegram/cmake-build-debug/CMakeFiles/SEtelegram_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/matteo/Scrivania/SEtelegram/AccessWindow.cpp", "MU" ],
+		[ "/home/matteo/Scrivania/SEtelegram/ChatWindow.cpp", "MU" ],
+		[
+			"/home/matteo/Scrivania/SEtelegram/Dialogs/AttachmentDialog.cpp",
+			"MU"
+		],
+		[ "/home/matteo/Scrivania/SEtelegram/Dialogs/ErrorDialog.cpp", "MU" ],
+		[
+			"/home/matteo/Scrivania/SEtelegram/Dialogs/TelegramAccessDialog.cpp",
+			"MU"
+		],
+		[ "/home/matteo/Scrivania/SEtelegram/Frames/ChatButtonFrame.cpp", "MU" ],
+		[
+			"/home/matteo/Scrivania/SEtelegram/Frames/DocumentMessageFrame.cpp",
+			"MU"
+		],
+		[
+			"/home/matteo/Scrivania/SEtelegram/Frames/ImageMessageFrame.cpp",
+			"MU"
+		],
+		[ "/home/matteo/Scrivania/SEtelegram/Frames/TextMessageFrame.cpp", "MU" ],
+		[ "/home/matteo/Scrivania/SEtelegram/Td.cpp", "MU" ],
+		[ "/home/matteo/Scrivania/SEtelegram/global.cpp", "MU" ],
+		[ "/home/matteo/Scrivania/SEtelegram/main.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

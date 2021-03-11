@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>css/stylesheet.qss</file>
+        <file>resources/light-clip.png</file>
+        <file>resources/document.png</file>
+    </qresource>
+</RCC>

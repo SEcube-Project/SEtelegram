@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SEtelegram"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Qt\;CMake Files\..\..\Qt\5.12.3\;CMake Files\..\..\Qt\5.12.3\gcc_64\;CMake Files\..\..\Qt\5.12.3\gcc_64\lib\;CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\;CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\;CMake Files\..\..\Scaricati\;CMake Files\..\..\Scaricati\td\;CMake Files\..\..\Scaricati\td\tdlib\;CMake Files\..\..\Scaricati\td\tdlib\lib\;CMake Files\..\..\Scaricati\td\tdlib\lib\cmake\;CMake Files\..\..\Scaricati\td\tdlib\lib\cmake\Td\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/matteo/Scrivania/SEtelegram/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/matteo/Scrivania/SEtelegram/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/matteo/Scrivania/SEtelegram/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SEtelegram">
+				<Option output="/home/matteo/Scrivania/SEtelegram/cmake-build-debug/SEtelegram" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/Scrivania/SEtelegram/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add directory="/home/matteo/Scrivania/SEtelegram/cmake-build-debug/SEtelegram_autogen/include"/>
+					<Add directory="/home/matteo/Scaricati/td/tdlib/include"/>
+					<Add directory="/home/matteo/Qt/5.12.3/gcc_64/include"/>
+					<Add directory="/home/matteo/Qt/5.12.3/gcc_64/include/QtCore"/>
+					<Add directory="/home/matteo/Qt/5.12.3/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/matteo/Qt/5.12.3/gcc_64/include/QtGui"/>
+					<Add directory="/home/matteo/Qt/5.12.3/gcc_64/include/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCharts"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 SEtelegram"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SEtelegram/fast">
+				<Option output="/home/matteo/Scrivania/SEtelegram/cmake-build-debug/SEtelegram" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/Scrivania/SEtelegram/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add directory="/home/matteo/Scrivania/SEtelegram/cmake-build-debug/SEtelegram_autogen/include"/>
+					<Add directory="/home/matteo/Scaricati/td/tdlib/include"/>
+					<Add directory="/home/matteo/Qt/5.12.3/gcc_64/include"/>
+					<Add directory="/home/matteo/Qt/5.12.3/gcc_64/include/QtCore"/>
+					<Add directory="/home/matteo/Qt/5.12.3/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/matteo/Qt/5.12.3/gcc_64/include/QtGui"/>
+					<Add directory="/home/matteo/Qt/5.12.3/gcc_64/include/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCharts"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 SEtelegram/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SEtelegram_autogen">
+				<Option working_dir="/home/matteo/Scrivania/SEtelegram/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 SEtelegram_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matteo/Scrivania/SEtelegram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/AccessWindow.cpp">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/AccessWindow.h">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/AccessWindow.ui">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/ChatWindow.cpp">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/ChatWindow.h">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/ChatWindow.ui">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Dialogs/AttachmentDialog.cpp">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Dialogs/AttachmentDialog.h">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Dialogs/ErrorDialog.cpp">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Dialogs/ErrorDialog.h">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Dialogs/ErrorDialog.ui">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Dialogs/TelegramAccessDialog.cpp">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Dialogs/TelegramAccessDialog.h">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Frames/ChatButtonFrame.cpp">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Frames/ChatButtonFrame.h">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Frames/DocumentMessageFrame.cpp">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Frames/DocumentMessageFrame.h">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Frames/DocumentMessageFrame.ui">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Frames/ImageMessageFrame.cpp">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Frames/ImageMessageFrame.h">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Frames/TextMessageFrame.cpp">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Frames/TextMessageFrame.h">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Td.cpp">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/Td.h">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/cmake-build-debug/SEtelegram_autogen/EWIEGA46WW/qrc_resources.cpp">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/cmake-build-debug/SEtelegram_autogen/EWIEGA46WW/qrc_resources.cpp.rule">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/cmake-build-debug/SEtelegram_autogen/mocs_compilation.cpp">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/css/stylesheet.qss">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/global.cpp">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/global.h">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/main.cpp">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/resources.qrc">
+			<Option target="SEtelegram"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/resources.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Qt/5.12.3/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.3\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Scaricati/td/tdlib/lib/cmake/Td/TdConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Scaricati\td\tdlib\lib\cmake\Td\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Scaricati/td/tdlib/lib/cmake/Td/TdConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Scaricati\td\tdlib\lib\cmake\Td\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Scaricati/td/tdlib/lib/cmake/Td/TdTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\Scaricati\td\tdlib\lib\cmake\Td\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Scrivania/SEtelegram/../../Scaricati/td/tdlib/lib/cmake/Td/TdTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Scaricati\td\tdlib\lib\cmake\Td\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

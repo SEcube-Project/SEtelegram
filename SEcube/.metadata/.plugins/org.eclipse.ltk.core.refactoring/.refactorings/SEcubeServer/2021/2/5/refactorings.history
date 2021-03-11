@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SEcube Host/GUI_Server_interface&apos; to &apos;GUI_Server_interface.h&apos;" description="Rename resource &apos;GUI_Server_interface&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="GUI_Server_interface" name="GUI_Server_interface.h" stamp="1612172437717" updateReferences="true"/>
+</session>
